@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="body-font font-roboto bg-dustPink md:sticky top-0 z-10">
+    <header className="font-roboto bg-mauve md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="text-white italic font-bold mb-4 md:mb-0 hover:text-darkGreen">
           <a href="#about" className="ml-3 text-3xl hover:animate-pulse">
@@ -21,7 +21,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-white border-0 py-1 px-3 hover:bg-lightGreen hover: animate-pulse rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-white border-0 py-1 px-3 hover:bg-lightGreen hover:animate-pulse rounded text-base mt-4 md:mt-0">
           hire me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>

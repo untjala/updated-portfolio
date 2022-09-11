@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-dustPink font-roboto ">
       <Navbar />
       <About />
       <Projects />
